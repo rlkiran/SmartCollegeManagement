@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".timeTables">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="47dp"
+            android:text="Time Table"
+            android:textStyle="bold"
+            android:textSize="35sp"/>
+
+        <Spinner
+            android:layout_marginTop="25dp"
+            android:id="@+id/timetables"
+            android:layout_width="match_parent"
+            android:layout_height="25dp">
+
+        </Spinner>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:id="@+id/msg"
+            android:textStyle="bold"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Please Select the TimeTable to display" />
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="12sp"
+            android:textStyle="italic"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="(pinch to zoom in or zoom out)" />
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <com.github.chrisbanes.photoview.PhotoView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            tools:srcCompat="@tools:sample/backgrounds/scenic[2]" />
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>
+<!--
+<TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:textSize="20sp"
+            android:text="Please select Details From the Following "
+            />
+        <Spinner
+            android:id="@+id/spin1"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/Branches">
+
+        </Spinner>
+        <Spinner
+            android:id="@+id/spin2"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/Year">
+
+        </Spinner>
+        <Spinner
+            android:id="@+id/spin3"
+            android:layout_marginTop="40dp"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:entries="@array/Sections">
+
+        </Spinner>
+
+        <Button
+            android:id="@+id/show"
+            android:text="show"
+            android:layout_marginTop="40dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            />
+-->

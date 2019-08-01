@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">My_project003</string>
+    <string-array name="Branches">
+        <item>Please select Your Branch</item>
+        <item>CSE</item>
+        <item>ECE</item>
+        <item>CIVIL</item>
+        <item>MECHANICAL</item>
+        <item>EEE</item>
+    </string-array>
+    <string-array name="Year">
+        <item>Please select Year</item>
+        <item>First Year</item>
+        <item>Second Year</item>
+        <item>Third Year</item>
+        <item>Final Year</item>
+    </string-array>
+    <string-array name="Sections">
+        <item>Please select Your Section</item>
+        <item>section A</item>
+        <item>section B</item>
+        <item>section C</item>
+    </string-array>
+
+    <string name="access_token">pk.eyJ1Ijoia2lyYW4tcmxrIiwiYSI6ImNqdW5wazhwbjE2ZXI0ZHB3ZG01c3F6cGgifQ.e1ovWHhvvReI1GNc-GOoUw</string>
+</resources>

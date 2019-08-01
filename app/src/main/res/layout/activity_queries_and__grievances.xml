@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Queries_and_Grievances"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#222"
+        android:layout_marginTop="15dp"
+        android:textStyle="bold"
+        android:textSize="30sp"
+        android:text="Queries and Grievances Portal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+    <EditText
+        android:id="@+id/ed_query"
+        android:hint="Enter Your Queries / Grievances"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:inputType="text" />
+    <EditText
+        android:id="@+id/ed_roll"
+        android:hint="Enter Your Roll Number"
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText"
+        android:importantForAutofill="no"
+        tools:targetApi="o"
+        android:inputType="text" />
+
+    <Button
+        android:onClick="submitQuery"
+        android:text="submit"
+        android:layout_marginTop="25dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:ignore="HardcodedText" />
+
+</LinearLayout>
